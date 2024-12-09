@@ -3,9 +3,11 @@ An Embedding-Based Recommender System for Chess Opening Suggestions
 
 ## Dataset
 
-Debido a que los datos de entrenamiento son muy grandes, no se incluyen en este repositorio. Sin embargo, se pueden descargar desde el siguiente enlace: [ChessRec Data Drive](https://drive.google.com/drive/folders/1t5eMurIJmxTnGY7LdT93jp3xK2WzR3i0?usp=drive_link). Esta carpeta contiene los datos que se utilizaron a lo largo del desarrollo (encontrados en la carpeta `data`). Además, se incluyen dos de los motores (Dragon y Komodo) utilizados para la evaluación. Notar que Stockfish debe ser instalado por separado, para esto, se deben seguir las indicaciones descritas en la página de [Stockfish](https://stockfishchess.org/download/).
+Debido a que los datos de entrenamiento son muy grandes, no se incluyen en este repositorio. Sin embargo, se pueden descargar desde el siguiente enlace: [ChessRec Data Drive](https://drive.google.com/drive/folders/1t5eMurIJmxTnGY7LdT93jp3xK2WzR3i0?usp=drive_link). Al descargar esta carpeta, se deben ubicar las subcarpetas en el directorio raíz del proyecto. Esta carpeta contiene los datos que se utilizaron a lo largo del desarrollo (encontrados en la carpeta `data`). Además, se incluyen dos de los motores (Dragon y Komodo) utilizados para la evaluación. Notar que Stockfish debe ser instalado por separado, para esto, se deben seguir las indicaciones descritas en la página de [Stockfish](https://stockfishchess.org/download/).
 
 ## Código
+
+Para correr los distintos archivos que se presentan, se recomienda crear un ambiente virtual en Python e instalar las librerías que se encuentran en `requirements.txt`.
 
 ### data_generation.ipynb
 
